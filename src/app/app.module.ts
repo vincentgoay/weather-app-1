@@ -12,7 +12,7 @@ import { environment } from '../environments/environment';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from './material.modules';
 
-NgModule({
+@NgModule({
   declarations: [
     AppComponent
   ],
