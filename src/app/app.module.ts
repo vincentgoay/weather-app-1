@@ -11,10 +11,12 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from './material.modules';
+import { AddCityDialog } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddCityDialog
   ],
   imports: [
     BrowserModule,
@@ -26,6 +28,7 @@ import { MaterialModule } from './material.modules';
     FlexLayoutModule
   ],
   providers: [ WeatherService ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [AppComponent, AddCityDialog]
 })
 export class AppModule { }
