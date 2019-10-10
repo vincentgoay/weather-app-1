@@ -13,14 +13,14 @@ notifications:
   slack: csf-2019:ONgoUzwpaNRcrOZfcymFsagb
     on_success: always
     on_failure: always
-    
+
 branches:
   only:
     - master
 before_script:
   - npm install -g @angular/cli
 script:
-  - ng build --prod --base-href https://vincentgoay.github.io/weather-app-1/
+  - ng build --prod --base-href https://vincentgoay.github.io/weather-apps/
 deploy:
   provider: pages
   skip_cleanup: true
