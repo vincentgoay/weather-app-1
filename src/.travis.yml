@@ -11,7 +11,7 @@ before_script:
 script:
   - ng lint
   - npm run test-headless
-  - ng build --prod --base-href https://kenken64.github.io/weather-app/
+  - ng build --prod --base-href https://vincentgoay.github.io/weather-app-1/
 deploy:
   provider: pages
   skip_cleanup: true
