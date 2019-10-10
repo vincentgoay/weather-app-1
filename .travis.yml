@@ -3,6 +3,17 @@ node_js:
   - node
 dist: bionic
 sudo: required
+
+notifications:
+  email:
+    receipients:
+    - vinc3nt86@gmail.com
+    on_success: always
+    on_failure: never
+  slack: csf-2019:ONgoUzwpaNRcrOZfcymFsagb
+    on_success: always
+    on_failure: always
+    
 branches:
   only:
     - master
