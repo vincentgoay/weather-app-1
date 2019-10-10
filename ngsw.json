@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1570692378339,
+  "index": "https://vincentgoay.github.io/weather-app-1/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://vincentgoay.github.io/weather-app-1/favicon.ico",
+        "https://vincentgoay.github.io/weather-app-1/index.html",
+        "https://vincentgoay.github.io/weather-app-1/main-es2015.004510060f92d1c2573f.js",
+        "https://vincentgoay.github.io/weather-app-1/main-es5.2ecc441d7813682b4ebd.js",
+        "https://vincentgoay.github.io/weather-app-1/manifest.webmanifest",
+        "https://vincentgoay.github.io/weather-app-1/polyfills-es2015.e8b97d86f82c10919d39.js",
+        "https://vincentgoay.github.io/weather-app-1/polyfills-es5.8a4b38aaa820bbe58836.js",
+        "https://vincentgoay.github.io/weather-app-1/runtime-es2015.375f12bc0081c0c12b1d.js",
+        "https://vincentgoay.github.io/weather-app-1/runtime-es5.5f071ba442a6c083b2d7.js",
+        "https://vincentgoay.github.io/weather-app-1/styles.f7c238ce936e7a37713f.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-128x128.png",
+        "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-144x144.png",
+        "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-152x152.png",
+        "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-192x192.png",
+        "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-384x384.png",
+        "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-512x512.png",
+        "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-72x72.png",
+        "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://vincentgoay.github.io/weather-app-1/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://vincentgoay.github.io/weather-app-1/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://vincentgoay.github.io/weather-app-1/index.html": "04586dc19d64c15ed18d00428360940900e904fc",
+    "https://vincentgoay.github.io/weather-app-1/main-es2015.004510060f92d1c2573f.js": "4d6dd061038e3e3a1c2dfc5c509c2bd0699f068d",
+    "https://vincentgoay.github.io/weather-app-1/main-es5.2ecc441d7813682b4ebd.js": "ddfd1901904d5e85fe8eaa1b84fe92c1e9f7eccd",
+    "https://vincentgoay.github.io/weather-app-1/manifest.webmanifest": "8c58a079a6dd7ad831b1b4c3e2d23760b8c3ac16",
+    "https://vincentgoay.github.io/weather-app-1/polyfills-es2015.e8b97d86f82c10919d39.js": "08c97940ba93ccc4121b85df6911d86011ef3fb8",
+    "https://vincentgoay.github.io/weather-app-1/polyfills-es5.8a4b38aaa820bbe58836.js": "9d9b583788005b7e2dc51d2b965f7c09b9180c60",
+    "https://vincentgoay.github.io/weather-app-1/runtime-es2015.375f12bc0081c0c12b1d.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://vincentgoay.github.io/weather-app-1/runtime-es5.5f071ba442a6c083b2d7.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://vincentgoay.github.io/weather-app-1/styles.f7c238ce936e7a37713f.css": "e44247179f7ff6c616439f6ad8e4e8acc146201a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
