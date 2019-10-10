@@ -11,7 +11,7 @@
             <span>There is no country added</span>
         </div>
         <mat-list-item class="solid-border list-padding" *ngFor="let city of cities; let i = index;">
-            <a [routerLink]="['/cities', cities[i].name]">
+            <a [routerLink]="['/cities', cities[i].name, cities]">
                 {{ city.name }}
             </a>
         </mat-list-item>
