@@ -10,7 +10,6 @@ export class WeatherService {
   constructor(private httpSvc: HttpClient) { }
 
   getWeather(city: string, apiKey: string): Promise<any>{
-    console.log("Get Weather...");
     const params = new HttpParams()
       .set("q", city)
       .set("appid", apiKey);
