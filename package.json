@@ -7,7 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "dev": "nextein",
+    "export": "nextein build && nextein export",
+    "deploy": "now ./out --static --no-clipboard --token=$NOW_TOKEN --public"
   },
   "private": true,
   "dependencies": {
